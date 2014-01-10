@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0">
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.photon.phresco</groupId>
   <artifactId>responsive-web-demo</artifactId>
@@ -7,7 +7,8 @@
         <connection>https://github.com/syed-ah/src.git</connection>
         <developerConnection>scm:git:https://github.com/syed-ah/src.git</developerConnection>
         <url>scm:git:https://github.com/syed-ah/src.git</url>
-    </scm>
+      <tag>branch-split-project</tag>
+  </scm>
   <name>responsive-web-demo</name>
   <packaging>war</packaging>
   

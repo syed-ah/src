@@ -86,5 +86,14 @@
             <type>js</type>
         </dependency>
   </dependencies>
-  
+      <distributionManagement>
+        <repository>
+            <id>Demo Project-release</id>
+            <url>http://172.16.17.226:8080/repository/content/repositories/duplicate/</url>
+        </repository>
+        <snapshotRepository>
+            <id>Demo Project-snapshot</id>
+            <url>http://172.16.17.226:8080/repository/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
